@@ -1,0 +1,26 @@
+I setup2.inc
+> branch David
+<<<
+> checkout David
+<<<
++ david.txt wug2.txt
+> merge David
+Cannot merge a branch with itself.
+<<<
+> checkout master
+<<< merge David
+> status
+=== Branches ===
+*master
+David
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+david.txt
+
+<<<
